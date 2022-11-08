@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background: #101648 !important; */
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.navbar-light {
+  background-color: #5c0000;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffd900;
+  /* box-shadow: 4px 14px 80px #ffd900; */
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+
+.no-cuenta{
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  color: #000000;
+  margin: 0;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.zoom {
+  transition: transform .3s;
+  width: 25%;
+  /* flex-direction: row; */
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.plataforma-selection {
+  /* position: relative; */
+   /* width:auto; */
+  /* flex-direction: row;  */
+  /* height: 100%; */
+   /* margin: auto; */
+  background-color: #ffd900; 
+  /* box-shadow: 4px 14px 80px #ffd900; */
+  /* padding: 40px 55px 45px 55px; */
+  /* margin-top: 5%;
+  margin-bottom: 10%; */
+  
+  /* border-radius: 15px; */
+  /* transition: all .3s; */
+}
+
+.i1{
+  /* flex-direction: row; */
+  display: flex;
+  flex-direction: row;
+  /* position:absolute;
+  top: 50%;
+  left: 12.5%;
+  transform: translate(-50%, -50%); */
+}
+
+.i2{
+  max-height: max-content ;
+  /* flex-direction: row; */
+  /* display: table-column;
+  flex-direction:column; */
+  /* position:absolute;
+  top: 50%;
+  left: 37.5%;
+  transform: translate(-50%, -50%); */
+}
+
+.i3{
+
+  display: table-column;
+  flex-direction:column;
+  /* flex-direction: row; */
+  /* position:absolute; */
+  /* top: 50%;
+  left: 62.5%;
+  transform: translate(-50%, -50%); */
+}
+
+.i4{
+  display: table-column;
+  flex-direction:column;
+  /* flex-direction: row; */
+  /* position:absolute; */
+  /* top: 50%;
+  left: 87.5%;
+  transform: translate(-50%, -50%); */
+}
+
+
+
+.listoEntrar{
+  border-radius: 15px;
+  border: outset;
+  padding: 10px;
+  box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  text-align: center;
+  flex-direction: row; 
+  display: table-column;
+  flex-direction:column;
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.barraBusqueda{
+  text-align: center;
+  background-color: red;
+  margin-bottom: 10px;
+}
+.inputBusqueda{
+  margin: 8px;
+  align-self: center;
+  width: 800px;
+  height: 35px;
+  font-size: 22px;
+}
+
+.fondosign{
+  /* background-image: url("./assets/images/fondito.jpg") !important; */
+  background-color: #7f7d7d;
+}
+
+.fondoxbox{
+  /* background-color: #107c10; */
+  background-image: url("./assets/images/xboxwall.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fondosteam{
+  /* background-color: #107c10; */
+  background-image: url("./assets/images/fondosteam.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fondoplay{
+  /* background-color: #107c10; */
+  background-image: url("./assets/images/fondoplay.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fondonintendo{
+  /* background-color: #107c10; */
+  background-image: url("./assets/images/fondonintendo.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+

@@ -1,0 +1,9 @@
+diff a/package.json b/package.json	(rejected hunks)
+@@ -17,7 +17,6 @@
+     "bootstrap": "^5.1.3",
+     "firebase": "^9.8.2",
+     "react": "^18.1.0",
+-    "react-bootstrap": "^2.4.0",
+     "react-dom": "^18.1.0",
+     "react-router-dom": "^6.3.0",
+     "react-scripts": "5.0.1",
