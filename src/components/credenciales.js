@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBcXicgzHSTPKedEiucBUAGbuz60u3K0Sw",
-  authDomain: "prueba-tienda-videojuegos.firebaseapp.com",
-  projectId: "prueba-tienda-videojuegos",
-  storageBucket: "prueba-tienda-videojuegos.appspot.com",
-  messagingSenderId: "738716071234",
-  appId: "1:738716071234:web:491a59f24550410fa484db"
+  apiKey: "AIzaSyB6IKkhRs3zd4Tsi7Jst_XWwvIXHT7A_uw",
+  authDomain: "proyecto-ia-abb41.firebaseapp.com",
+  projectId: "proyecto-ia-abb41",
+  storageBucket: "proyecto-ia-abb41.appspot.com",
+  messagingSenderId: "120081486842",
+  appId: "1:120081486842:web:8fe00f4292dfbe06b38a43"
 };
 
 // Initialize Firebase

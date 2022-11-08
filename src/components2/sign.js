@@ -151,10 +151,9 @@ const Logueo = () => {
             correo,
             contra
           );
-          const docRef = await addDoc(collection(db, "users"), {
-            Nombre: nombre ,
-            Apellido: apellido,
-            Nickname: ""
+          const docRef = await addDoc(collection(db, "usuarios"), {
+            nombre: nombre ,
+            apellido: apellido
           });
           console.log("Document written with ID: ", docRef.id);
         } catch (error) {
