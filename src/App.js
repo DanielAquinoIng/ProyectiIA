@@ -4,6 +4,9 @@ import Fondito from './assets/images/fondito.jpg'
 import Dynamite from './assets/images/pngwing.com.png'
 import Sign from "./components2/sign"
 import React, {useState,useEffect} from 'react';
+///Prueba
+import Menu from "./components3/menu";
+import ConfirmarOrden from "./components3/ordencorrecta"
 
 import firebaseApp from "./components/credenciales";
 import{getAuth,onAuthStateChanged} from "firebase/auth"
@@ -28,7 +31,7 @@ function App() {
     <div className="fondosign">
       {usuarioGlobal ? (
         <>
-          <Catalogo />
+          <ConfirmarOrden/>
         </>
       ) : (
         <div className="listoEntrar">

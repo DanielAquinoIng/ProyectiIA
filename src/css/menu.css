@@ -1,0 +1,29 @@
+.boton_cocina{
+    border-radius: 5px;
+  }
+.boton_mesero{
+    border-radius: 15px;
+}
+.boton_maestra{
+    border-radius: 10px;
+}
+h3.cocina{
+    color: gold;
+    text-align: center;
+    font-size: 35px;
+}
+h3.mesero{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+h3.maestra{
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+}
+.contenedor{
+display: flex;
+align-items: center;
+justify-content: center;
+}
