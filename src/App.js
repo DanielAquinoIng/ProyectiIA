@@ -11,6 +11,14 @@ import ConfirmarOrden from "./components3/ordencorrecta"
 import firebaseApp from "./components/credenciales";
 import{getAuth,onAuthStateChanged} from "firebase/auth"
 
+//Importaciones de react-router-dom
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+//Prueba para componente mesas
+import Mesas from "./components2/mesas";
+import Clientes from "./components2/numeroClientes";
+import Total from "./components2/total";
+
 const auth=getAuth(firebaseApp);
 
 function App() {
@@ -28,19 +36,25 @@ function App() {
     }
   });
   return (
-    <div className="fondosign">
+    <Router>
+      <div className="fondosign">
       {usuarioGlobal ? (
         <>
-          <ConfirmarOrden/>
+          <Routes>
+            <Route path="/" element={<Mesas/>} />
+            <Route path="/clientes" element={<Clientes/>} />
+            <Route path="/total" element={<Total/>} />
+          </Routes>
         </>
       ) : (
         <div className="listoEntrar">
           {/* <h1>Bienvenido a Dynamite Gaming</h1>
           <h1>Estas listo para entrar?</h1> */}
-          <Sign/>
+          <Sign />
         </div>
       )}
     </div>
+    </Router>
   );
 }
 
