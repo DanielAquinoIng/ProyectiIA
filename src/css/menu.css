@@ -1,11 +1,14 @@
 .boton_cocina{
     border-radius: 5px;
+    width: 70%;
   }
 .boton_mesero{
-    border-radius: 15px;
+    border-radius: 5px;
+    width: 70%;
 }
 .boton_maestra{
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 70%;
 }
 h3.cocina{
     color: gold;
@@ -26,4 +29,8 @@ h3.maestra{
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.cajaa {
+    margin-top: 15%;
+    margin-bottom: 15%;
 }

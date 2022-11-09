@@ -1,6 +1,33 @@
-.titulo-orden{
+.titulo-orden {
     text-align: center;
-    color:#ee4036;
+    color: #ee4036;
     font-size: 70px;
     font-weight: bolder;
+}
+
+.img-redonda {
+    width: auto;
+    height: auto;
+    border-radius: 25%;
+}
+
+.platillos {
+    color: white;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.margenes {
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+.caja {
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    width: 70%;
+    display: block;
+    background-color: #ee4036;
+    margin: auto;
 }
